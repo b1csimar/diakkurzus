@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    font-weight: bold;
+    align-content: center;
+    flex-direction: column;
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.looks{
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 1px;
+    width: fit-content;
+    border: black 1px solid;
+    background-color: bisque;
+}
+
+#selectitems{
+    margin: auto;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+h1{
+    margin: auto;
+}
+
+button{
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 1px;
+    background-color: bisque;
+}
+
+input,select 
+{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#elaboration
+{
+    display: none;
+    flex-direction: column;
+    align-content: center;
+}
+
+#elaboration>button, label{
+    margin-top: 15px;
+}

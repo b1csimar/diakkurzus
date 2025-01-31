@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diakcourse.css">
+    <title>Diak-Kurzus</title>
+</head>
+<body>
+    <h1>Diák-Kurzus manager</h1>
+    <div id="choose" class="looks">
+        <div>
+            <label for="student">Diák</label>
+            <input type="radio" name="studentCourse" id="student" checked>
+        </div>
+
+        <div>
+            <label for="course">Kurzus</label>
+            <input type="radio" name="studentCourse" id="course">
+    </div>
+    </div>
+
+    <div id="selectitems">
+        <button onclick="addNewSomething()">
+            Új
+        </button>
+        <button onclick="modifySomething()">
+            Módosítás
+        </button>
+        <button onclick="deleteSomething()">
+            Törlése
+        </button>
+    </div>
+
+    <div id="elaboration" class="looks">
+
+    </div>
+
+    <script src="diakcourse.js"></script>
+</body>
+</html>
